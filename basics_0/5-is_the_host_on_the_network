@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script pings the provided IP address 5 times
+#script that pings an IP address
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $(basename "$0") {IP_ADDRESS}"
